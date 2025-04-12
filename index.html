@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dandy Portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <script src="libs/rain.js" defer></script>
+
+    <link rel="icon" href="img/gallery/favicon.png" />
+    <meta property="og:image" content="img/gallery/preview.jpg" />
+  </head>
+  <body>
+    <div class="logo" style="background-image: url(img/logo.svg)"></div>
+
+    <div class="layers">
+      <div class="layers__container">
+        <div
+          class="layers__item layer-1"
+          style="background-image: url(img/layer-1.jpg)"></div>
+        <div
+          class="layers__item layer-2"
+          style="background-image: url(img/layer-2.png)"></div>
+        <div class="layers__item layer-3">
+          <div class="hero-content">
+            <h1>Portfolio<span>Dandy Gilang Saputra</span></h1>
+            <div class="hero-content__p">
+              Sebuah web portofolio sederhana dengan ‘effect scrolling’
+            </div>
+            <button class="button-start">Keep Scrolling</button>
+          </div>
+        </div>
+        <div class="layers__item layer-4">
+          <canvas class="rain"></canvas>
+        </div>
+        <div
+          class="layers__item layer-5"
+          style="background-image: url(img/layer-5.png)"></div>
+        <div
+          class="layers__item layer-6"
+          style="background-image: url(img/layer-6.png)"></div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="content">
+        <div class="hero-section">
+          <img data-speed=".6" class="hero" src="img/hero.png" alt="Alt" />
+          <div class="container">
+            <div data-speed=".75" class="main-profile">
+              <h1 class="main-title">Junior Developer</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img class="gallery__item" src="img/work/1.png" alt="Alt" />
+                <img class="gallery__item" src="img/work/2.png" alt="Alt" />
+
+                <div class="text-block gallery__item">
+                  <a href="https://aurellista-portofolio.vercel.app/">
+                    <h2 class="text-block__h">
+                      Membuat portofolio website dengan parallax scrolling
+                      effect
+                    </h2>
+                  </a>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor amount scrolling.
+                  </p>
+                </div>
+
+                <img class="gallery__item" src="img/work/6.png" alt="Alt" />
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <a href="https://austore.ct.ws">
+                  <div class="text-block gallery__item">
+                    <h2 class="text-block__h">
+                      Membuat website Austore dengan implementasi bahasa PHP
+                      Native
+                    </h2>
+                    <p class="text-block__p">
+                      Sebuah website toko rajut dengan katalog scrolling dan
+                      memiliki halaman admin, produk, keranjang dan transaksi
+                      pembayaran menggunakan metode midtrans gateway
+                    </p>
+                  </div>
+
+                  <img class="gallery__item" src="img/work/4.png" alt="Alt" />
+                  <img class="gallery__item" src="img/work/3.png" alt="Alt" />
+                  <img class="gallery__item" src="img/work/5.png" alt="Alt" />
+                </a>
+              </div>
+            </main>
+          </div>
+        </div>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img class="gallery__item" src="img/gallery/wisuda.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/gallery/Binar.png" alt="Alt" />
+
+                <div class="text-block gallery__item">
+                  <div class="text-block__p">
+                    <a href="https://aurellista-portofolio.vercel.app/">
+                      <h2 class="text-block__h">SMKN 1 Negeri Malang</h2>
+                    </a>
+                    <p>
+                      Magang 6 Bulan di Universitas Merdeka Malang sebagai IT
+                      Support.
+                    </p>
+                    <p>
+                      Lulus uji dan mendapat sertifikasi Jaringan Komputer Lan
+                      oleh Lembaga Sertifikasi Profesi.
+                    </p>
+                  </div>
+                </div>
+
+                <img class="gallery__item" src="img/gallery/MSDM.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/gallery/hero.png" alt="Alt" />
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <a href="https://austore.ct.ws">
+                  <div class="text-block gallery__item">
+                    <h1 class="text-block__h">Edukasi</h1>
+                    <div class="text-block__p">
+                      <h2 class="text-block__h">
+                        Universitas Merdeka Malang - D3 Sistem Informasi
+                      </h2>
+                      <p>Lulus dengan IPK = 3.68.</p>
+                      <p>
+                        Lulus uji dan mendapat sertifikasi Manajemen Sumber Daya
+                        oleh Lembaga Sertifikasi Profesi.
+                      </p>
+                      <p>
+                        Mengikuti Studi Independen Binar Academy - Full Stack
+                        Web pada program Magang Bersama Kampus Mengajar.
+                      </p>
+                      <p>Lulus TOEFL dengan score = 517.</p>
+                    </div>
+                  </div>
+
+                  <img class="gallery__item" src="img/gallery/IJSASAH.jpg" alt="Alt" />
+                  <img class="gallery__item" src="img/gallery/PKL.jpg" alt="Alt" />
+                  <img class="gallery__item" src="img/gallery/LAN.jpg" alt="Alt" />
+                </a>
+              </div>
+            </main>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <!-- <marquee scrollamount="20" behavior="" direction="right">
+          </marquee> -->
+          <div class="footer__container container">
+            <!-- <img src="./assets/img/changif.gif" class="frozen" /> -->
+
+            <p>"Malang sedingin ini yang bisa dipeluk hanya Agama"</p>
+            <br />
+            <span class="footer__copy">
+              &#169; Copyright Dandy Gilang Saputra. All right reserved
+            </span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
